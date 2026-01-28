@@ -1,0 +1,22 @@
+# 依存関係
+node_modules/
+
+# Electronのビルド成果物 (非常に重くなる原因)
+dist/
+out/
+release/
+
+# OS固有の不要ファイル
+.DS_Store
+Thumbs.db
+
+# ログファイル
+*.log
+npm-debug.log*
+
+# 環境変数 (秘密情報)
+.env
+
+# エディタの一時ファイル
+.vscode/
+.idea/
